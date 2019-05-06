@@ -18,7 +18,7 @@ Some things to try:
 
 2. **Use Python:** 
   - Create a virtual environment: `virtualenv env` and select it for the folder workspace
-  - Activate the environment: `cd env/bin`
+  - Activate the environment: `cd env/bin` followed by `. activate`
   - Install Flask" `pip install flask` 
 
 3. **Edit code:**
