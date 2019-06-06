@@ -19,7 +19,7 @@ Some things to try:
 2. **Use Python:** 
   - Create a virtual environment: `virtualenv env` and select it for the folder workspace
   - Activate the environment: `cd env/bin` followed by `. activate`
-  - Install Flask" `pip install flask` 
+  - Install Flask `pip install flask` 
 
 3. **Edit code:**
    - Open `app.py`
@@ -29,7 +29,7 @@ Some things to try:
   - From the terminal run `python --version`
     > Note: Python is not installed on the local machine, yet you're able to use it! 
   - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
-    > Note: The local machine is Windows, yet you're able to issue Linux commands! 
+    > Note: Regardless of the local operating system, you're able to issue Linux commands!
   - Run `python` to issue commands in the Python interpreter (`print("Hi mom")`, `7 * 6`, etc.) 
     > Note: Use `exit()` to leave the Python interpreter
 
@@ -39,7 +39,7 @@ Some things to try:
    - Change the message in `static\index.html` to "Hello {your name} from Python!"
    - Press F5 to launch the app
    - Once the breakpoint is hit, try hovering over variables (e.g. the app variable on line 7), examining locals, and more.
-   - Continue, then open a local browser and go to `http://localhost:9000` and note you can't connect to the server
+   - Continue, then open a local browser and go to `http://localhost:9000`
 
 5. **Forward port:**
    - Stop debugging and remove the breakpoint.
@@ -50,7 +50,4 @@ Some things to try:
      - Enter port 5000
      - Name it anything you'd like
      - View the forwarded ports in the Environment Details panel
-   - Open http://localhost:5000/ and show the booth attendant the running site
-   
-6. **Finish**
-  - Complete steps 5-7 on the Challenge Worksheet
+   - Open the local browser and go to http://localhost:5000/ to see the app running on a different port.
