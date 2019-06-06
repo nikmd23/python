@@ -19,7 +19,7 @@ Some things to try:
 2. **Use Python:** 
   - Create a virtual environment: `virtualenv env` and select it for the folder workspace
   - Activate the environment: `cd env/bin` followed by `. activate`
-  - Install Flask" `pip install flask` 
+  - Install Flask `pip install flask` 
 
 3. **Edit code:**
    - Open `app.py`
@@ -31,7 +31,7 @@ Some things to try:
    - Change the message in `static\index.html` to "Hello {your name} from Python!"
    - Press F5 to launch the app
    - Once the breakpoint is hit, try hovering over variables (e.g. the app variable on line 7), examining locals, and more.
-   - Continue, then open a local browser and go to `http://localhost:9000` and note you can't connect to the server
+   - Continue, then open a local browser and go to `http://localhost:9000`
 
 5. **Forward port:**
    - Stop debugging and remove the breakpoint.
