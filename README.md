@@ -8,13 +8,13 @@ This sample has been cloned into your VS Cloud Environment. You're able to work 
 
 Some things to try:
 
-1. **Install language extensions:**
-  - Open `app.py`
-  - Install the recommended Python extension
-  - View the list of `Cloud Environment - Installed` extensions
-    > Note: The Python extension has been installed in the remote environment
-  - Reload VS Code
-    > Note: VS Code automatically reconnects to your cloud environment
+1. **Terminal:** 
+  - From the terminal run `python --version`
+    > Note: Python is not installed on the local machine, yet you're able to use it! 
+  - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
+    > Note: The local machine is Windows, yet you're able to issue Linux commands! 
+  - Run `python` to issue commands in the Python interpreter (`print("Hi mom")`, `7 * 6`, etc.) 
+    > Note: Use `exit()` to leave the Python interpreter
 
 2. **Use Python:** 
   - Create a virtual environment: `virtualenv env` and select it for the folder workspace
@@ -25,15 +25,7 @@ Some things to try:
    - Open `app.py`
    - Try adding some code and check out the IntelliSense
 
-4. **Terminal:** 
-  - From the terminal run `python --version`
-    > Note: Python is not installed on the local machine, yet you're able to use it! 
-  - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
-    > Note: The local machine is Windows, yet you're able to issue Linux commands! 
-  - Run `python` to issue commands in the Python interpreter (`print("Hi mom")`, `7 * 6`, etc.) 
-    > Note: Use `exit()` to leave the Python interpreter
-
-5. **Build, Run, and Debug:**
+4. **Build, Run, and Debug:**
    - Open `app.py`
    - Add a breakpoint (e.g. on line 9)
    - Change the message in `static\index.html` to "Hello {your name} from Python!"
@@ -50,7 +42,10 @@ Some things to try:
      - Enter port 5000
      - Name it anything you'd like
      - View the forwarded ports in the Environment Details panel
-   - Open http://localhost:5000/ and show the booth attendant the running site
+   - Open the local browser and go to http://localhost:5000/ to see the app running on a different port.
    
-6. **Finish**
-  - Complete steps 5-7 on the Challenge Worksheet
+6. **Source Control:**
+    - From the Source Control side bar:
+      - Stage changes.
+      - Commit changes.
+      - Push changes.
