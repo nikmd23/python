@@ -12,7 +12,6 @@ Some things to try:
   - From the terminal run `python --version`
     > Note: Python is not installed on the local machine, yet you're able to use it! 
   - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
-    > Note: The local machine is Windows, yet you're able to issue Linux commands! 
   - Run `python` to issue commands in the Python interpreter (`print("Hi mom")`, `7 * 6`, etc.) 
     > Note: Use `exit()` to leave the Python interpreter
 
